@@ -4,16 +4,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/css/bootstrap.min.css" integrity="sha384-bEaTMSFPLK+wXByWNyTg13yBXejbAmGo7g7pPpDJJOICD72YlCvGYS7y0stWhgLp" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #222;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .container:before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("manwha/deesrex/the-alliance/post/ch_01.html");
+            background-size: cover;
+            opacity: 0.5;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
-    <img src="../images/ch_01.jpg" />
+    <div>
+        <header>
+            
+        </header>
+    </div>
+
+    <div class="container">
+        <img src="../images/ch_01.jpg" class="img-fluid" alt="Chapter 01">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.7.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-VqYJYssIqyydHgRmDcm3SLc24c6WjNW2C+TXzQ6xKkMGC1vTXVcqB6kEwZzCFmTD" crossorigin="anonymous"></script>
 </body>
 </html>
 
+
 <style>
-    .manwha_container{
-        background-image: url('');
-        height: fit-content;
-        width: auto;
-    }
+.container:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("https://example.com/path/to/background-image.jpg");
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
 </style>
